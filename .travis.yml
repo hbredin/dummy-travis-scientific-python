@@ -10,10 +10,9 @@ before_install:
   - sudo apt-get -qq update
   - sudo apt-get install git gfortran g++
   - sudo apt-get install libatlas-base-dev liblapack-dev
-  - sudo apt-get -qq install python-numpy python-scipy
+  - sudo apt-get -qq install python-numpy
 
 install:
    - "pip install . --use-mirrors"
-   - "pip install -r requirements.txt --use-mirrors"
 
 script: nosetests

@@ -13,7 +13,7 @@ setup(
     url='http://packages.python.org/dummy',
     packages= find_packages(),
     install_requires=['numpy >=1.7.1',
-                      'scipy >=0.10.0'],
+                      'scipy >=0.12.0'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
